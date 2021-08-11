@@ -24,7 +24,11 @@ body {
     overflow: hidden;
     border-radius: 60px;
     padding: 15px;
-
+    position: sticky;
+    top: 0;
+    z-index: 200;
+    
+    
   }
   
   /* Style the links inside the navigation bar */
@@ -45,7 +49,8 @@ body {
     color: #003262;
    
   }
-  
+
+
   /* Add a color to the active/current link */
   .header-image {
     border-top-left-radius: 100px;
